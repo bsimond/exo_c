@@ -18,7 +18,7 @@
 					<folderInfo id="com.atollic.managedbuild.pctools.config.gnu.exe.debug.572657782." name="/" resourcePath="">
 						<toolChain id="com.atollic.managedbuild.pctoolschain.gnu.exe.debug.2108915598" name="Atollic Linux PC Tools" superClass="com.atollic.managedbuild.pctoolschain.gnu.exe.debug">
 							<targetPlatform id="com.atollic.pctools.managedbuild.target.gnu.platform.exe.debug.644675174" name="Debug Platform" superClass="com.atollic.pctools.managedbuild.target.gnu.platform.exe.debug"/>
-							<builder buildPath="${workspace_loc:/71_distance_point.c}/Debug" id="com.atollic.pctools.managedbuild.target.gnu.builder.exe.debug.2057609379" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU Make Builder" superClass="com.atollic.pctools.managedbuild.target.gnu.builder.exe.debug"/>
+							<builder buildPath="${workspace_loc:/71_distance_point.c}/Debug" customBuilderProperties="toolChainpathString=/opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.3.0/ARMTools/bin|toolChainpathType=1|" id="com.atollic.pctools.managedbuild.target.gnu.builder.exe.debug.2057609379" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU Make Builder" superClass="com.atollic.pctools.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="com.atollic.managedbuild.pctools.gnu.archiver.base.907004897" name="Archiver" superClass="com.atollic.managedbuild.pctools.gnu.archiver.base"/>
 							<tool id="com.atollic.managedbuild.pctools.gnu.cpp.compiler.exe.debug.895249059" name="C++ Compiler" superClass="com.atollic.managedbuild.pctools.gnu.cpp.compiler.exe.debug">
 								<option id="com.atollic.pctools.gnu.cpp.compiler.exe.debug.option.optimization.level.2042556785" name="Optimization Level" superClass="com.atollic.pctools.gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="com.atollic.pctools.gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
@@ -30,6 +30,9 @@
 								<inputType id="com.atollic.managedbuild.pctools.gnu.c.compiler.input.1659211791" superClass="com.atollic.managedbuild.pctools.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="com.atollic.managedbuild.pctools.gnu.c.linker.exe.debug.1362974754" name="C Linker" superClass="com.atollic.managedbuild.pctools.gnu.c.linker.exe.debug">
+								<option id="com.atollic.pctools.gnu.c.link.option.libs.411632778" superClass="com.atollic.pctools.gnu.c.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+								</option>
 								<inputType id="com.atollic.managedbuild.pctools.gnu.c.linker.input.944101091" superClass="com.atollic.managedbuild.pctools.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -103,4 +106,6 @@
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
